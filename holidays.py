@@ -23,7 +23,7 @@ def get_holidays(country, year):
         return None
 
 if __name__ == "__main__":
-    country_code = "SL"  # Example: Sierra Leone 
+    country_code = "SL" #Example: Sierra Leone 
     year = datetime.now().year-1
 
     holidays = get_holidays(country_code, year)
